@@ -21,7 +21,7 @@ export const Contact = () => {
         
         <meta
           name="description"
-          content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Konya, Program: Luni - Vineri: 9 - 17, E-mail: av.elifezgi@gmail.com, Telefon: +40769 935 716."
+          content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Konya, Program: Luni - Vineri: 9 - 17, E-mail: av.elifezgi@gmail.com, Telefon: +90 533 414 16 85."
         />
       </Helmet>
       <section>
@@ -87,7 +87,7 @@ export const Contact = () => {
                     </span>
                   </div>
                   <h5>Telefon</h5>
-                  <p>+40769 935 716</p>
+                  <p>+90 533 414 16 85</p>
                 </div>
               </div>
             </div>

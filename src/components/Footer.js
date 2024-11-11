@@ -57,7 +57,7 @@ const Footer = () => {
                   <FontAwesomeIcon
                     icon={faPhone}
                     className="contact-icon"
-                    title="+40769 935 716"
+                    title="+90 533 414 16 85"
                   />
                   <span className="px-2 fw-light">+90 (533) 414 16 85</span>
                 </span>
@@ -109,7 +109,7 @@ const Footer = () => {
         {/* WhatsAppWidget */}
         <div>
           <WhatsAppWidget
-            phoneNo="+40769935716"
+            phoneNo="+905334141685"
             position="right"
             iconSize="50"
             iconColor="white"
@@ -123,9 +123,9 @@ const Footer = () => {
             chatPersonName="Support"
             chatMessage={
               <>
-                Buna ziua,
+                Merhaba,
                 <br />
-                <br /> Cum putem sa va ajutam?
+                <br />Size nasıl yardımcı olabiliriz?
               </>
             }
             footerBgColor="#999"
