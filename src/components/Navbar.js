@@ -61,20 +61,6 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item mx-3 mb-2">
                   <NavLink
-                    to="/avocatura"
-                    style={({ isActive }) => ({
-                      textDecoration: "none",
-                      color: isActive ? "#c2b697" : "#fff",
-                      borderBottom: isActive ? "1px solid #c2b697" : "none",
-                      paddingBottom: isActive ? "5px" : "0",
-                    })}
-                  >
-                    Çalışma Alanlarımız
-                    
-                  </NavLink>
-                </li>
-                <li className="nav-item mx-3 mb-2">
-                  <NavLink
                     to="/insolventa"
                     style={({ isActive }) => ({
                       textDecoration: "none",
@@ -88,6 +74,20 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item mx-3 mb-2">
                   <NavLink
+                    to="/avocatura"
+                    style={({ isActive }) => ({
+                      textDecoration: "none",
+                      color: isActive ? "#c2b697" : "#fff",
+                      borderBottom: isActive ? "1px solid #c2b697" : "none",
+                      paddingBottom: isActive ? "5px" : "0",
+                    })}
+                  >
+                    Çalışma Alanlarımız
+                  </NavLink>
+                </li>
+
+                <li className="nav-item mx-3 mb-2">
+                  <NavLink
                     to="/informatii-utile"
                     style={({ isActive }) => ({
                       textDecoration: "none",
@@ -96,7 +96,7 @@ const Navbar = () => {
                       paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
-                  Blog
+                    Blog
                   </NavLink>
                 </li>
                 <li className="nav-item mx-3 mb-2">

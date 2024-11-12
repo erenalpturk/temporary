@@ -34,7 +34,7 @@ const Footer = () => {
                   height="100"
                 />
               </span>
-              <p className="content pt-3 px-3">
+              <p className="content  px-5">
               Hukuk ve Danışmanlık büromuz hukuki ve mali zorluklar konusunda size rehberlik edebilir. Çıkarlarınızı korumaya ve size özelleştirilmiş çözümler sunmaya kendimizi adadık.
               </p>
             </div>
@@ -82,9 +82,6 @@ const Footer = () => {
                 Pazartesi – Cumartesi: 08.00 – 18.00 <br />
                 Pazar: Kapalı
                 </p>
-                <a href="/sitemap.xml" className="">
-                  Sitemap
-                </a>
               </div>
             </div>
           </div>
@@ -137,7 +134,7 @@ const Footer = () => {
         <div>
           <div className="bg-dark d-flex align-items-center justify-content-center">
             <hr></hr>
-            <p className="copyright mb-0">©2024 Avocat Elif Ezgi Özkan</p>
+            <p className="copyright mb-0">©2024 Avukat Elif Ezgi Özkan</p>
           </div>
         </div>
       </footer>

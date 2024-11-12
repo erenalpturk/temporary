@@ -8,24 +8,24 @@ const Insolventa = () => {
       <div className="insolventa-page">
         <Helmet>
           <title>
-            Servicii de Insolventa | Avocat Konya | Cabinet de avocat si
-            insolventa Elif Ezgi Özkan
+            Hizmetlerimiz | Avukat Konya | Avukatlık & Danışmanlık Bürosu Elif
+            Ezgi Özkan
           </title>
-          
+
           <meta
             name="description"
             content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
           />
         </Helmet>
         <div>
-          <h6 className="guide-text ms-3 mt-4">SERVICII DE INSOLVENTA</h6>
+          <h6 className="guide-text ms-3 mt-4">BİZ KİMİZ?</h6>
           <div className="container py-5">
             <h5 className="fw-bold text-center pb-1">
-              Servicii de consultanță și reprezentare în insolvență
+              İflas danışmanlığı ve temsil hizmetleri{" "}
             </h5>
             <h6 className="fw-bold subtitle lh-lg text-center px-5 pb-5">
-              Oferim asistență specializată în procedurile de insolvență, de la
-              evaluarea opțiunilor disponibile și până la finalizarea procesului
+              Mevcut seçeneklerin değerlendirilmesinden sürecin tamamlanmasına
+              kadar, iflas davalarında uzman yardımı sunuyoruz
             </h6>
 
             <div className="card">
@@ -33,7 +33,7 @@ const Insolventa = () => {
               <div className="card-body">
                 <div className="card-text text-white py-5">
                   <ul className="my-list pt-3">
-                    <li>Lichidare judiciara / procedura falimentului;</li>
+                    <li>Adli tasfiye/iflas prosedürü;</li>
                     <br></br>
                     <li>
                       Redactare actiuni avand ca obiect cereri de deschidere a

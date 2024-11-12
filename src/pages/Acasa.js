@@ -14,9 +14,7 @@ const Acasa = () => {
     <>
       <div className="home-page">
         <Helmet>
-          <title>
-            Avukat Elif Ezgi | Hukuk & Danışmanlık Bürosu
-          </title>
+          <title>Avukat Elif Ezgi | Hukuk & Danışmanlık Bürosu</title>
 
           <meta
             name="description"
@@ -31,13 +29,16 @@ const Acasa = () => {
               <div className="text-container d-flex flex-column justify-content-start align-items-start pt-6 slide">
                 <div className="text-1 fs-2 pb-3">Avukat Elif Ezgi</div>
                 <div className="text-2 fs-4">
-                  PARILTI HUKUK & DAANIŞMANLIK BÜROSU
+                  HUKUK & DANIŞMANLIK BÜROSU
                   <span className="fw-bold">
-                    <br></br> Konya{" "}
+                    <br></br> Konya ve İlçeleri, <br></br>
+                    Karaman - Niğde - Antalya - AfyonKarahisar - Aksaray{" "}
                   </span>
                 </div>
                 <div className="text-3 fst-italic fw-light">
-                  "Adaletin olmadığı yerde gerçek adalet yoktur ve adaletin olmadığı yerde doğruluk bulunamaz." - <span>Lucius Annaeus Seneca.</span>
+                  "Adaletin olmadığı yerde gerçek adalet yoktur ve adaletin
+                  olmadığı yerde doğruluk bulunamaz." -{" "}
+                  <span>Lucius Annaeus Seneca.</span>
                 </div>
               </div>
               {/* horizontal buttons */}
@@ -95,7 +96,7 @@ const Acasa = () => {
                   <span className="p-3">
                     <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
                   </span>
-                  Programare
+                  RANDEVU AL
                 </button>
               </Link>
               <Link to="/contact">
@@ -130,21 +131,21 @@ const Acasa = () => {
           <div className="row">
             <div className="col-lg-7">
               <div className="card-body">
-                <h6 className="guide-text mb-4">INTRO</h6>
+                <h6 className="guide-text mb-4">GİRİŞ</h6>
                 <h5 className="lh-base text-center pb-4">
-                  Va confruntati cu o problemă juridică sau de insolventa?
+                  Yasal veya miras sorunuyla mı karşı karşıyasınız?{" "}
                 </h5>
 
                 <p className="text-separator fw-normal">
-                  Cabinetul nostru de Avocat și Insolvență, condus de Alina
-                  Marin, oferă consultanță, asistență și reprezentare pentru
-                  probleme juridice sau de insolvență și recuperare de creanțe
-                  în fața instanțelor și autorităților publice.
-                  <br />
-                  <span className="ms-4"></span>Vrem să fim alături de tine și
-                  să găsim cele mai bune soluții pentru problemele tale
-                  menținând în același timp imaginea ta impecabilă în lumea
-                  afacerilor.
+                  <span className="ms-2"></span> Av. Elif Ezgi liderliğindeki
+                  Hukuk ve Danışmanlık Büromuz, mahkemeler ve kamu makamları
+                  nezdinde hukuki veya iflas sorunları ve borç tahsilatı
+                  konusunda danışmanlık, yardım ve temsil sunmaktadır.
+                  <span></span>
+                  <br /> <br />
+                  <span className="ms-4"></span>İş dünyasındaki kusursuz
+                  imajınızı korurken yanınızda olmak ve sorunlarınıza en iyi
+                  çözümleri bulmak istiyoruz.
                   <span></span>
                 </p>
               </div>
@@ -171,16 +172,14 @@ const Acasa = () => {
                 <div className="services-overlay "></div>
 
                 <div className="services-content container mt-3">
-                  <h6 className=" guide-text">SERVICII</h6>
+                  <h6 className=" guide-text">HİZMETLER</h6>
 
                   <h5 className="lh-base text-center pb-3">
-                    Domenii de activitate
+                    Faaliyet Alanları
                   </h5>
                   <div className="row mt-3 gx-3 flex-column flex-md-row ">
                     <div className="col-md-6">
-                      <h5 className="color text-center pb-4">
-                        Cabinet de avocatura
-                      </h5>
+                      <h5 className="color text-center pb-4">Hukuk Firması</h5>
                       <div className="d-flex align-items-center">
                         <img
                           src="/assets/barou.webp"
@@ -191,10 +190,9 @@ const Acasa = () => {
                         />
                       </div>
                       <p className="pt-4 px-2">
-                        Asistenta si reprezentare juridica in domenii de drept
-                        comercial, infiintari societati, drept civil, dreptul
-                        muncii, dreptul familiei, procedura insolventei,
-                        recuperari creante, drept administrativ etc.
+                        Ticaret hukuku, şirket kuruluşları, medeni hukuk, iş
+                        hukuku, aile hukuku, iflas prosedürü, borç tahsilatı,
+                        idare hukuku vb. alanlarda yardım ve hukuki temsil.
                       </p>
                       <div className="py-3 text-center">
                         <Link to="/avocatura">
@@ -203,14 +201,14 @@ const Acasa = () => {
                             className="btn btn-outline-dark mb-4"
                             aria-label="Afla mai multe"
                           >
-                            Afla mai multe...
+                            Daha fazlasını öğrenin...
                           </button>
                         </Link>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <h5 className="color text-center pb-4">
-                        Cabinet de insolventa
+                        Danışmanlık Ofisi
                       </h5>
                       <div className="d-flex align-items-center">
                         <img
@@ -222,11 +220,11 @@ const Acasa = () => {
                         />
                       </div>
                       <p className="pt-4 px-2">
-                        Servicii in etapa de preinsolventa, fuziuni si divizari
-                        societati comerciale, insolventa, restructurare si
-                        reorganizare judiciara, faliment, lichidare judiciara si
-                        administrativa, recuperari creante, evaluare si
-                        valorificare active.
+                        İflas öncesi aşamadaki hizmetler, ticari şirketlerin
+                        birleşmeleri ve bölünmeleri, iflas, adli yeniden
+                        yapılanma ve yeniden yapılanma, iflas, adli ve idari
+                        tasfiye, borç tahsilatı, varlık değerlendirmesi ve
+                        aktifleştirme.
                       </p>
                       <div className="py-3 text-center">
                         <Link to="/insolventa">
@@ -235,7 +233,7 @@ const Acasa = () => {
                             className="btn btn-outline-dark mb-4"
                             aria-label="Afla mai multe"
                           >
-                            Afla mai multe...
+                            Daha fazlasını öğrenin...
                           </button>
                         </Link>
                       </div>
@@ -253,24 +251,35 @@ const Acasa = () => {
           <div className="row">
             <div className="col-lg-7">
               <div className="card-body">
-                <p className="guide-text mb-4">DESPRE NOI</p>
-                <h5 className="lh-base text-center pb-4">Cine suntem?</h5>
+                <p className="guide-text mb-4">HAKKIMIZDA</p>
+                <h5 className="lh-base text-center pb-4">Biz Kimiz?</h5>
 
-                <p className="text-separator fw-normal">
-                  Vom fi partenerul dvs. in solutionarea intr- un mod
-                  profesionist a tuturor problemelor comerciale, fiscale,
-                  contractuale.
-                  <br></br>
-                  <span className="ms-4"></span>Suntem o echipa tanara de
-                  avocati, practicieni in insolventa si economisti, specialist
-                  in domeniul financiar – juridic, cu o noua viziune de abordare
-                  si solutionare a problemelor. Ne recomanda experienta de peste
-                  10 ani, profesionalismul si seriozitatea.
-                  <br></br> <span className="ms-4"></span>Coordonatorul Biroului
-                  de avocatura si insolventa, Marin Alina este avocat de peste
-                  15 ani, in domeniul comercial, contractual etc. si practician
-                  in insolventa de 8 ani, cu societati salvate de insolventa,
-                  radiate, si/sau planuri de reorganizare etc
+                <p
+                  className="text-separator fw-normal"
+                  style={{ textAlign: "left", marginLeft: 0 }}
+                >
+                  Biz, ticari, mali ve sözleşmesel sorunlarınızın profesyonel
+                  çözüme kavuşturulmasında ortağınız olmaktan gurur duyan bir
+                  ekibiz. Sorunlara yenilikçi bir bakış açısıyla yaklaşarak, her
+                  türlü hukuki ve mali probleminizi uzmanlıkla ele alıyoruz.
+                  <br />
+                  <br />
+                  Ekibimiz, mali ve hukuk alanında derin bilgiye sahip
+                  avukatlardan, iflas uygulayıcılarından ve ekonomistlerden
+                  oluşuyor. Her biri, 10 yılı aşkın deneyim ve profesyonellik
+                  ile sizin için en uygun çözümleri sunmayı taahhüt ediyor.
+                  <br />
+                  <br />
+                  Hukuk ve İflas Bürosu koordinatörümüz Marin Alina, 15 yılı
+                  aşkın süredir ticaret, sözleşmeler ve diğer hukuki alanlarda
+                  danışmanlık yapmaktadır. Aynı zamanda, 8 yıl boyunca iflas
+                  uygulayıcısı olarak çalışmış ve iflasın yönetilmesi, kurtarma,
+                  silme ve yeniden yapılanma süreçlerinde geniş bir deneyime
+                  sahip bir uzmandır.
+                  <br />
+                  <br />
+                  Biz, ticari faaliyetlerinizdeki her adımda yanınızda olarak,
+                  güvenle ilerlemenizi sağlamak için buradayız.
                 </p>
               </div>
             </div>
@@ -289,24 +298,24 @@ const Acasa = () => {
 
         {/*CE NE RECOMANDA========= */}
         <section className="recommendation p-3 bg-image m-3 px-0">
-          <h6 className="guide-text ">EXPERTIZA NOASTRA</h6>
+          <h6 className="guide-text ">UZMANLIĞIMIZ</h6>
           <div className="container d-flex flex-column justify-content-center align-items-center">
-            <h5 className="h-50 lh-base text-center pb-4">Ce ne recomanda?</h5>
+            <h5 className="h-50 lh-base text-center pb-4">
+              Neden bizi tercih etmelisiniz?
+            </h5>
           </div>
           <div className="row mt-4 flex-column flex-md-row mb-3">
             <div className="col col-md-7 order-md-2">
               <ul className="my-list">
-                <li>Experiență vastă în domeniu</li>
-                <li>
-                  Profesionalism ridicat și abordare orientată spre clienți.
-                </li>
-                <li> Implicare activă în proiecte și sprijinirea acestora.</li>
-                <li> Comunicare directă și transparentă cu clienții.</li>
-                <li> Angajament față de satisfacția clienților.</li>
+                <li>Alanında geniş deneyim</li>
+                <li>Yüksek profesyonellik ve müşteri odaklı yaklaşım. </li>
+                <li> Projelere aktif katılım ve destek.</li>
+                <li> Müşterilerle doğrudan ve şeffaf iletişim.</li>
+                <li> Müşteri memnuniyetine bağlılık.</li>
                 <li>
                   {" "}
-                  Furnizarea de solutii complete prin colaborarea cu alti
-                  profesionisti.
+                  Diğer profesyonellerle işbirliği yaparak eksiksiz çözümler
+                  sunmak.
                 </li>
               </ul>
             </div>
@@ -315,8 +324,8 @@ const Acasa = () => {
                 <div>
                   <FontAwesomeIcon icon={faGavel} size="2x" />
                 </div>
-                <div>10+</div>
-                <div>ani de experienta</div>
+                <div>+7</div>
+                <div>Deneyim Yılı</div>
               </div>
             </div>
           </div>
