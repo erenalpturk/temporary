@@ -15,17 +15,16 @@ export const Contact = () => {
     <div className="contact-page">
       <Helmet>
         <title>
-          Contact | Avocat Konya | Cabinet de avocat si insolventa Alina
-          Marin
+          İletişim | Avukat Elif Ezgi | Avukatlık ve Danışmanlık Bürosu
         </title>
-        
+
         <meta
           name="description"
           content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Konya, Program: Luni - Vineri: 9 - 17, E-mail: av.elifezgi@gmail.com, Telefon: +90 533 414 16 85."
         />
       </Helmet>
       <section>
-        <h6 className="guide-text ms-3 mt-4">CONTACT</h6>
+        <h6 className="guide-text ms-3 mt-4">İLETİŞİM</h6>
         {/* contact info============ */}
         <div className="container-lg bg-light my-5 shadow">
           <div className="contact-info text-center py-5">
@@ -41,7 +40,7 @@ export const Contact = () => {
                       />
                     </span>
                   </div>
-                  <h5>Locatie:</h5>
+                  <h5>Lokasyon:</h5>
                   <p>Konya</p>
                 </div>
               </div>
@@ -56,8 +55,8 @@ export const Contact = () => {
                       />
                     </span>
                   </div>
-                  <h5>Program:</h5>
-                  <p>Luni – Vineri: 9 – 17</p>
+                  <h5>Çalışma Saatleri:</h5>
+                  <p>Pzt – Cts: 9 – 17</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 border-end border-1">
@@ -99,19 +98,16 @@ export const Contact = () => {
             <div className="col-sm-6 order-sm-first ">
               <div className="contact-text d-flex flex-column ">
                 <h5 className="lh-base text-center pb-4">
-                  Nu ezitati sa ne contactati!
+                  Bize ulaşmaktan çekinmeyin!
                 </h5>
                 <p>
-                  Suntem aici pentru a va oferi sprijinul nostru in toate
-                  problemele legale cu care va confruntati.{" "}
+                  Sizlere karşılaştığınız tüm hukuki sorunlarda destek sunmak için buradayız.{" "}
                 </p>
                 <p>
-                  Va rugam sa ne contactati completand formularul de mai jos si
-                  vom fi bucurosi sa va oferim ajutorul nostru.
+                  Lütfen aşağıdaki formu doldurarak bizimle iletişime geçin, size yardımcı olmaktan memnuniyet duyarız.
                 </p>
                 <p>
-                  Vom prelua solicitarea dvs. si vom reveni in scurt timp pentru
-                  mai multe detalii.
+                  Talebinizi alacağız ve daha fazla detay için en kısa sürede size geri dönüş yapacağız.
                 </p>
               </div>
             </div>

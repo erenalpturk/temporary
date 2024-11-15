@@ -2,7 +2,7 @@ import { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("Trimite mesaj");
+  const [status, setStatus] = useState("Mesaj gönder");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -22,7 +22,7 @@ const ContactForm = () => {
     emailjs.send(serviceID, templateID, params, userID).then(
       (response) => {
         console.log("SUCCESS!", response.status, response.text);
-        setStatus("Trimite mesaj");
+        setStatus("Mesaj gönder");
         alert("Mesajul tău a fost trimis cu succes!");
 
         // Clear input fields after successful submission
@@ -33,7 +33,7 @@ const ContactForm = () => {
       },
       (error) => {
         console.log("FAILED...", error);
-        setStatus("Trimite mesaj");
+        setStatus("Mesaj gönder");
         alert("Ceva nu a mers bine. Încearcă din nou mai târziu.");
       }
     );
@@ -41,7 +41,7 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("Se trimite...");
+    setStatus("Gönderiliyor...");
 
     sendMail();
   };
@@ -50,13 +50,13 @@ const ContactForm = () => {
     <div className="form-wrap p-5 mb-5">
       <div className="form-overlay"></div>
       <div className="contact-form text-center">
-        <p className="lead text-light">Solicită consultanță</p>
+        <p className="lead text-light">Danışmanlık Talep Et</p>
       </div>
       <div className="row justify-content-center ">
         <div className="col-lg-12">
           <form onSubmit={handleSubmit}>
             <label htmlFor="name" className="form-label text-light">
-              Nume Prenume:
+              Ad Soyad:
             </label>
             <input
               type="text"
@@ -67,7 +67,7 @@ const ContactForm = () => {
               required
             />
             <label htmlFor="email" className="form-label text-light pt-2">
-              Adresa de e-mail:
+              E-posta Adresi:
             </label>
             <input
               type="email"
@@ -78,7 +78,7 @@ const ContactForm = () => {
               required
             />
             <label htmlFor="phone" className="form-label text-light pt-2">
-              Număr de telefon:
+              Telefon Numarası:
             </label>
             <input
               type="tel"
@@ -90,7 +90,7 @@ const ContactForm = () => {
             />
             <div>
               <label htmlFor="query" className="form-label text-light pt-2">
-                Mesajul dvs.:
+                Mesajınız:
               </label>
               <textarea
                 className="form-control"
