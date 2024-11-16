@@ -5,15 +5,15 @@ const Info = () => {
   return (
     <div className="info">
       <Helmet>
-        <title>Sık Sorulan Sorular | Avukat Elif Ezgi Konya | Avukatlık ve Danışmanlık Bürosu </title>
+        <title>Informatii Utile | Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin</title>
         
         <meta
           name="description"
-          content="Informatii utile despre cabinetul de avocatura si insolventa Elif Ezgi Özkan."
+          content="Informatii utile despre cabinetul de avocatura si insolventa Alina Marin."
         />
       </Helmet>
       <div>
-        <h6 className="guide-text ms-3 mt-4">Sık Sorulan Sorular</h6>
+        <h6 className="guide-text ms-3 mt-4">INFORMATII UTILE</h6>
         <div className="container py-5">
           <div id="accordion" className="accordion">
             {/* onorariul========== */}
@@ -28,7 +28,7 @@ const Info = () => {
                   aria-expanded="false"
                   aria-controls="collapseOne"
                 >
-                  Sık Sorulan Sorular?
+                  ONORARIUL
                 </button>
               </h2>
               <div

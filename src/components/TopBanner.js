@@ -17,7 +17,7 @@ const TopBanner = () => {
               className="banner-icon pe-2"
               size="1x"
             />
-            Konya
+            Bucuresti
           </div>
           <div className="col col-md-4 col-sm-12 text-center mb-md-0">
             <FontAwesomeIcon
@@ -25,7 +25,7 @@ const TopBanner = () => {
               className="banner-icon pe-2"
               size="1x"
             />
-            av.elifezgi@gmail.com
+            av_alinamarin@yahoo.com
           </div>
           <div className="col col-md-4 col-sm-12 text-center">
             <FontAwesomeIcon
@@ -33,7 +33,7 @@ const TopBanner = () => {
               className="banner-icon phone-icon pe-2"
               size="1x"
             />{" "}
-            +90 533 414 16 85
+            +40769 935 716
           </div>
         </div>
       </div>

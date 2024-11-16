@@ -8,24 +8,24 @@ const Insolventa = () => {
       <div className="insolventa-page">
         <Helmet>
           <title>
-            Hizmetlerimiz | Avukat Konya | Avukatlık & Danışmanlık Bürosu Elif
-            Ezgi Özkan
+            Servicii de Insolventa | Avocat Bucuresti | Cabinet de avocat si
+            insolventa Alina Marin
           </title>
-
+          
           <meta
             name="description"
             content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
           />
         </Helmet>
         <div>
-          <h6 className="guide-text ms-3 mt-4">BİZ KİMİZ?</h6>
+          <h6 className="guide-text ms-3 mt-4">SERVICII DE INSOLVENTA</h6>
           <div className="container py-5">
             <h5 className="fw-bold text-center pb-1">
-              İflas danışmanlığı ve temsil hizmetleri{" "}
+              Servicii de consultanță și reprezentare în insolvență
             </h5>
             <h6 className="fw-bold subtitle lh-lg text-center px-5 pb-5">
-              Mevcut seçeneklerin değerlendirilmesinden sürecin tamamlanmasına
-              kadar, iflas davalarında uzman yardımı sunuyoruz
+              Oferim asistență specializată în procedurile de insolvență, de la
+              evaluarea opțiunilor disponibile și până la finalizarea procesului
             </h6>
 
             <div className="card">
@@ -33,39 +33,73 @@ const Insolventa = () => {
               <div className="card-body">
                 <div className="card-text text-white py-5">
                   <ul className="my-list pt-3">
-                    <li>Adli tasfiye/iflas prosedürü;</li>
+                    <li>Lichidare judiciara / procedura falimentului;</li>
                     <br></br>
                     <li>
-                      UAT tarafından iletilen/onaylanan borçlular için, iflas işlemlerinin başlatılmasına yönelik taleplere yönelik davaların hazırlanması ve müvekkilin mahkemeler önünde temsil edilmesi;
+                      Redactare actiuni avand ca obiect cereri de deschidere a
+                      procedurii de insolventa si reprezentarea clientului in
+                      fata instantelor de judecata, pentru debitorii
+                      comunicati/aprobat de UAT;
                     </li>
                     <br></br>
                     <li>
-                      Borçlu şirketlerin analizini hazırlama: Ticaret Sicili (Recom) ve İflas İşlemleri Bülteni (BPI aboneliği mevcut) kontrol edilerek, incelemenin amacı iflas işlemlerine giren şirketleri tespit etmektir.                    </li>
+                      Intocmirea unei situatii de analiză a societatilor
+                      debitoare prin verificare recom si buletinul procedurilor
+                      de insolventa (exista abonament BPI), scopul verificarii
+                      fiind de a identifica societatile care au intrat in
+                      procedura insolventei.
+                    </li>
                     <br></br>
-                    <li>Şirketlerin, şubelerin ve iş yerlerinin kurulması.</li>
+                    <li>Infiintare Societati, filiale, puncte de lucru.</li>
                     <br></br>
                     <li>
-                      Sermaye değişikliği, alacakların hisseye dönüştürülmesi, şirketlerin birleşme, tasfiye, bölünme ve feshi ile ilgili yasal gerekliliklerin analizi.
+                      Modificarea capitalului social, conversia creantelor in
+                      actiuni, analiza cerintelor legale privind fuziunea,
+                      desfiintarea, divizarea, dizolvarea societatilor;
                     </li>
                     <br></br>
                     <li>
-                      Ticari sözleşmeler ve tüm sözleşme sorunlarının çözümü.
+                      Contracte comerciale si rezolvarea tuturor problemelor
+                      contractuale
                     </li>
                     <br></br>
                     <li>
-                      Alacakların tahsili: Yürütülen faaliyetlere ilişkin aylık raporların hazırlanması.
+                      Recuperarea de creante:
+                      <br></br>Notificari, Somatii de plata, Cerere cu valoare
+                      redusa
+                      <br></br>Declaratii de creanta
+                      <br></br>Reprezentarea clientilor atat in fata instantelor
+                      de judecata de drept comun, cat si in fata instantelor
+                      specializate
                     </li>
                     <br></br>
                     <li>
-                      Başvuru sahiplerine yönelik yanıtların analizi, hazırlanması ve onaylanması.
+                      Intocmire de rapoarte lunare privind activitatea
+                      desfasurata
                     </li>
                     <br></br>
                     <li>
-                      Fiziksel ve tüzel kişilere yönelik bildirimlerin/adreslerin analizi, hazırlanması ve onaylanması.
+                      Analiza, intocmire si avizare raspunsuri catre petenti.
                     </li>
                     <br></br>
                     <li>
-                      Hukuki düzenlemelerin uygulanması ve icrası konusunda danışmanlık ve hukuki yardım.
+                      Analiza, intocmire si avizare notificari/adrese catre
+                      persoane fizice/persoane juridice.
+                    </li>
+                    <br></br>
+                    <li>
+                      Analiza si avizare de alte acte juridice cu conotatie
+                      juridica.
+                    </li>
+                    <br></br>
+                    <li>
+                      Redactare de cereri precum si orice alte documente
+                      specifice activitatii avocatului.
+                    </li>
+                    <br></br>
+                    <li>
+                      Consultanta si asistenta juridica privitoare la modul de
+                      aplicare si executare a reglementarilor legale .
                     </li>
                   </ul>
                 </div>
@@ -75,7 +109,7 @@ const Insolventa = () => {
                     type="button"
                     aria-label="Cere o evaluare"
                   >
-                    Bir değerlendirme talep et.
+                    Cere o evaluare
                   </button>
                 </Link>
               </div>

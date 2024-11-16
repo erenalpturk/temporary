@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className="navbar navbar-dark w-100 navbar-expand-md slide-in">
           <div className="container-xxl">
             {/* logo */}
-            {/* <div className="navbar-brand">
+            <div className="navbar-brand">
               <span>
                 <img
                   src="/assets/LOGO2.png"
@@ -22,30 +22,12 @@ const Navbar = () => {
                 <img
                   src="/assets/component.png"
                   className="img-fluid px-0 logo-text"
-                  alt="Elif Ezgi | Hukuk Bürosu ve Danışmanlık"
+                  alt="alina marin cabinet de avocatura si insolventa"
                   width="200"
                   height="100"
                 />
               </span>
-            </div> */}
-
-            <div className="navbar-brand ">
-              <span className="brandAllContainer">
-                <img
-                  src="/assets/LOGO2.png"
-                  className="img-fluid logo-image"
-                  alt="scales of justice logo"
-                  width="70"
-                  height="70"
-                />
-                <div className="navbar-brand">
-                  <h1>ELİF EZGİ</h1>
-                  <h2 className="text-light">Hukuk ve Danışmanlık<br/>Bürosu</h2>
-                </div>
-              </span>
             </div>
-
-
             {/* toggle button for mobile nav */}
             <button
               className="navbar-toggler"
@@ -74,20 +56,7 @@ const Navbar = () => {
                       paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
-                    Anasayfa
-                  </NavLink>
-                </li>
-                <li className="nav-item mx-3 mb-2">
-                  <NavLink
-                    to="/insolventa"
-                    style={({ isActive }) => ({
-                      textDecoration: "none",
-                      color: isActive ? "#c2b697" : "#fff",
-                      borderBottom: isActive ? "1px solid #c2b697" : "none",
-                      paddingBottom: isActive ? "5px" : "0",
-                    })}
-                  >
-                    Hakkımızda
+                    Acasa
                   </NavLink>
                 </li>
                 <li className="nav-item mx-3 mb-2">
@@ -100,10 +69,22 @@ const Navbar = () => {
                       paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
-                    Çalışma Alanlarımız
+                    Avocatura
                   </NavLink>
                 </li>
-
+                <li className="nav-item mx-3 mb-2">
+                  <NavLink
+                    to="/insolventa"
+                    style={({ isActive }) => ({
+                      textDecoration: "none",
+                      color: isActive ? "#c2b697" : "#fff",
+                      borderBottom: isActive ? "1px solid #c2b697" : "none",
+                      paddingBottom: isActive ? "5px" : "0",
+                    })}
+                  >
+                    Insolventa
+                  </NavLink>
+                </li>
                 <li className="nav-item mx-3 mb-2">
                   <NavLink
                     to="/informatii-utile"
@@ -114,7 +95,7 @@ const Navbar = () => {
                       paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
-                    Blog
+                    Informatii utile
                   </NavLink>
                 </li>
                 <li className="nav-item mx-3 mb-2">
@@ -127,7 +108,7 @@ const Navbar = () => {
                       paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
-                    İletişim
+                    Contact
                   </NavLink>
                 </li>
               </ul>

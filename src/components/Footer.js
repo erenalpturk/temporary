@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="container">
           <div className="row justify-content-center py-4">
             {/* Logo Section */}
-            {/* <div className="col-md-4 ps-4 mx-auto text-center">
+            <div className="col-md-4 ps-4 mx-auto text-center">
               <span className="">
                 <img
                   src="/assets/LOGO2.png"
@@ -29,46 +29,29 @@ const Footer = () => {
                 <img
                   src="/assets/component.png"
                   className="img-fluid px-0 logo-text"
-                  alt="Elif Ezgi Özkan cabinet de avocatura si insolventa"
+                  alt="alina marin cabinet de avocatura si insolventa"
                   width="150"
                   height="100"
                 />
               </span>
-              <p className="content px-5">
-              Hukuk ve Danışmanlık büromuz hukuki ve mali zorluklar konusunda size rehberlik edebilir. Çıkarlarınızı korumaya ve size özelleştirilmiş çözümler sunmaya kendimizi adadık.
-              </p>
-            </div> */}
-
-            <div className="col-md-4 ps-4 mx-auto text-center">
-              <span className="brandAllContainer">
-                <img
-                  src="/assets/LOGO2.png"
-                  className="img-fluid logo-image"
-                  alt="scales of justice logo"
-                  width="70"
-                  height="70"
-                />
-                <div className="navbar-brand">
-                  <h1>ELİF EZGİ</h1>
-                  <h2 className="text-light">Hukuk ve Danışmanlık<br/>Bürosu</h2>
-                </div>
-              </span>
-              <p className="content  px-5">
-              Hukuk ve Danışmanlık büromuz hukuki ve mali zorluklar konusunda size rehberlik edebilir. Çıkarlarınızı korumaya ve size özelleştirilmiş çözümler sunmaya kendimizi adadık.
+              <p className="content pt-3 px-3">
+                Biroul nostru de avocat si insolventa va poate ghida prin
+                provocarile juridice si financiare. Suntem dedicați să vă
+                protejăm interesele și să vă oferim soluții personalizate.
               </p>
             </div>
 
             {/* Contact Section */}
             <div className="col-md-4 text-center">
-              <h6 className="pb-2">İletişim</h6>
+              <h6 className="pb-2">Contact</h6>
               <div className="d-flex align-items-center justify-content-center flex-column">
                 <span className="d-flex align-items-center">
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     className="contact-icon"
-                    title="av.elifezgialinamarin@yahoo.com"
+                    title="av_alinamarin@yahoo.com"
                   />
-                  <span className="fw-light px-2">av.elifezgi@gmail.com</span>
+                  <span className="fw-light px-2">av_alinamarin@yahoo.com</span>
                 </span>
               </div>
               <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
@@ -76,9 +59,9 @@ const Footer = () => {
                   <FontAwesomeIcon
                     icon={faPhone}
                     className="contact-icon"
-                    title="+90 533 414 16 85"
+                    title="+40769 935 716"
                   />
-                  <span className="px-2 fw-light">+90 (533) 414 16 85</span>
+                  <span className="px-2 fw-light">+40 (769) 935 716</span>
                 </span>
               </div>
               <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
@@ -86,9 +69,9 @@ const Footer = () => {
                   <FontAwesomeIcon
                     icon={faLocationDot}
                     className="contact-icon"
-                    title="Konya"
+                    title="Bucuresti"
                   />
-                  <span className="px-2 fw-light">Konya</span>
+                  <span className="px-2 fw-light">Bucuresti ROMANIA</span>
                 </span>
               </div>
             </div>
@@ -96,11 +79,13 @@ const Footer = () => {
             {/* Program section */}
             <div className="col-md-4 text-center mt-4 mt-md-0">
               <div>
-                <h6 className="pb-2">Çalışma Saatleri</h6>
+                <h6 className="pb-2">Program</h6>
                 <p className="fw-light">
-                Pazartesi – Cumartesi: 08.00 – 18.00 <br />
-                Pazar: Kapalı
+                  Luni – Vineri: 9AM – 5PM <br /> Sâmbătă – Duminică: Închis
                 </p>
+                <a href="/sitemap.xml" className="">
+                  Sitemap
+                </a>
               </div>
             </div>
           </div>
@@ -125,7 +110,7 @@ const Footer = () => {
         {/* WhatsAppWidget */}
         <div>
           <WhatsAppWidget
-            phoneNo="+905334141685"
+            phoneNo="+40769935716"
             position="right"
             iconSize="50"
             iconColor="white"
@@ -139,9 +124,9 @@ const Footer = () => {
             chatPersonName="Support"
             chatMessage={
               <>
-                Merhaba,
+                Buna ziua,
                 <br />
-                <br />Size nasıl yardımcı olabiliriz?
+                <br /> Cum putem sa va ajutam?
               </>
             }
             footerBgColor="#999"
@@ -153,7 +138,7 @@ const Footer = () => {
         <div>
           <div className="bg-dark d-flex align-items-center justify-content-center">
             <hr></hr>
-            <p className="copyright mb-0">©2024 Avukat Elif Ezgi Özkan</p>
+            <p className="copyright mb-0">©2024 Avocat Alina Marin</p>
           </div>
         </div>
       </footer>

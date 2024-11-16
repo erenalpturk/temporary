@@ -17,7 +17,7 @@ function App() {
         <BrowserRouter>
           <Helmet>
             <title>
-              Özkan Hukuk| Av. Elif Ezgi Özkan
+              Cabinet de Avocatură și Insolvență în București | Alina Marin
             </title>
             <meta
               name="description"

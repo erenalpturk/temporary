@@ -15,22 +15,25 @@ const Avocatura = () => {
       <div className="avocatura">
         <Helmet>
           <title>
-            Çalışma Alanlarımız | Avukat Elif Ezgi | Hukuk Bürosu & Danışmanlık
+            Servicii de Avocatura | Avocat Bucuresti | Cabinet de avocat si
+            insolventa Alina Marin
           </title>
-
+          
           <meta
             name="description"
             content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
           />
         </Helmet>
         <div>
-          <h6 className="guide-text ms-3 mt-4">Avukatlık Hizmetleri</h6>
+          <h6 className="guide-text ms-3 mt-4">SERVICII DE AVOCATURA</h6>
           <div className=" pt-4 text-center">
             <h5 className="fw-bold text-center pb-1">
-              Tam Kapsamlı Hukuk Hizmetleri
+              Servicii complete de avocatura
             </h5>
             <h6 className="fw-bold subtitle lh-lg text-center px-5 pb-4">
-              Hukuki danışmanlık ve çeşitli uygulama alanlarında uzmanlaşmış yardım sunuyorum.            </h6>
+              Oferim consultanță juridică și asistență specializată într-o serie
+              de arii de practică
+            </h6>
           </div>
           <div className="row g-5 px-5 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
@@ -44,9 +47,11 @@ const Avocatura = () => {
                     size="2x"
                     className="law-icon pb-3"
                   />
-                  <h6 className="card-title pb-2">MEDENİ HUKUK</h6>
+                  <h6 className="card-title pb-2">DREPT CIVIL</h6>
                   <p className="card-text mx-1">
-                    Hukuki danışmanlık, mahkemelerde yardım ve temsil, dava dilekçelerinin hazırlanması. Hukuki sorununuzu hızlı bir şekilde çözmenize yardımcı oluyoruz.
+                    Servicii de consultanță juridică, asistare și reprezentare
+                    în fața instanțelor de judecată, redactare cereri de chemare
+                    în judecată. Vă ajutăm să rezolvați rapid problema juridică.
                   </p>
                 </div>
               </div>
@@ -62,9 +67,12 @@ const Avocatura = () => {
                     size="2x"
                     className="law-icon pb-3"
                   />
-                  <h6 className="card-title pb-2">CEZA HUKUKU</h6>
+                  <h6 className="card-title pb-2">DREPT PENAL</h6>
                   <p className="card-text mx-1">
-                    Ceza soruşturma makamları ve mahkemeler önünde hukuki yardım ve temsil, soruşturma tedbirleri ve işlemlerine karşı dilekçe ve şikayetlerin hazırlanması, itibarı iade talebinin hazırlanması.
+                    Asistență și reprezentare juridică în fața organelor de
+                    urmărire penală și în fața instanțelor de judecată,
+                    redactare cereri și plângeri împotriva măsurilor și actelor
+                    de urmărire penală, redactare cerere de reabilitare.
                   </p>
                 </div>
               </div>
@@ -80,9 +88,13 @@ const Avocatura = () => {
                     size="2x"
                     className="law-icon pb-3"
                   />
-                  <h6 className="card-title pb-2">CEBRİ İCRA</h6>
+                  <h6 className="card-title pb-2">EXECUTARE SILITA</h6>
                   <p className="card-text mx-1">
-                    Cebri icra alanında sunulan hizmetler, bu süreçteki konumunuzdan bağımsız olarak – borçlu veya alacaklı – sağlanmaktadır. Pasif kalmak, hem alacaklı hem de borçlu için son derece ciddi sonuçlar doğurabilir.
+                    În materia executării silite, serviciile oferite sunt
+                    indiferent de calitatea pe care o aveți în această procedură
+                    – debitor sau creditor. Pasivitatea poate avea consecințe
+                    deosebit de grave în această materie, atât pentru creditor,
+                    cât și pentru debitor.
                   </p>
                 </div>
               </div>
@@ -100,10 +112,12 @@ const Avocatura = () => {
                     className="pb-3 law-icon"
                   />
                   <h6 className="card-title pb-2">
-                    Aile Hukuku - Boşanma ve Mal Paylaşımı
+                    DREPTUL FAMILIEI - DIVORT SI PARTAJ
                   </h6>
                   <p className="card-text mx-1">
-                    Boşanma davaları, mal paylaşımı, velayet hakkının kullanımı, nafaka ve çocukla görüşme düzenlemesi konularında hukuki yardım ve temsil hizmetleri.
+                    Servicii de asistare și reprezentare juridică în procesele
+                    de divorț, partaj, exercitarea autorității părintești,
+                    pensie de întreținere, program de vizită minor.
                   </p>
                 </div>
               </div>
@@ -119,10 +133,13 @@ const Avocatura = () => {
                     size="2x"
                     className="law-icon pb-3"
                   />
-                  <h6 className="card-title pb-2">İŞ HUKUKU</h6>
+                  <h6 className="card-title pb-2">DREPTUL MUNCII</h6>
                   <p className="card-text mx-1">
-
-                    İşten çıkarma kararına itiraz, disiplin cezası kararına itiraz, işvereni maaş alacaklarının ödenmesine zorunlu kılma ve iş hukuku alanında hukuki görüşlerin hazırlanması gibi profesyonel avukatlık hizmetleri sunuyoruz
+                    Oferim servicii de avocatură profesionale, concretizate prin
+                    redactarea contestației împotriva deciziei de concediere,
+                    împotriva deciziei de sancționare disciplinară, obligarea
+                    angajatorului la plata drepturilor de natură salarială,
+                    elaborarea de opinii juridice în dreptul muncii.
                   </p>
                 </div>
               </div>
@@ -139,10 +156,13 @@ const Avocatura = () => {
                     className="law-icon pb-3"
                   />
                   <h6 className="card-title pb-2">
-                    Ticaret ve Şirketler Hukuku
+                    DREPTUL COMERCIAL SI SOCIETAR
                   </h6>
                   <p className="card-text mx-1">
-                    Ticaret Sicilinde ticari şirketlerin kuruluşu, şirket merkezinin değiştirilmesi, şube açılışı/kapanışı, ana sözleşme hazırlanması, genel kurul kararlarının hazırlanması.
+                    Înființări societăți comerciale la Registrul Comerțului,
+                    schimbare sediu social, înființare/radiere punct de lucru,
+                    redactare acte constitutive, hotărâri ale adunării generale
+                    a asociațiilor.
                   </p>
                 </div>
               </div>
@@ -150,7 +170,12 @@ const Avocatura = () => {
           </div>
           <div className="container py-4 ">
             <p className="more-services py-4">
-              Mahkemeler veya diğer devlet kurumları nezdinde sizlere danışmanlık, yardım ve temsil sunduğumuz diğer faaliyet alanları: BORÇ TAHLİYESİ, EMEKLİLİK VE DİĞER SOSYAL SİGORTA HAKLARI, SAHİP KURULUŞLARI, TARTIŞMALI CEZA ŞİKAYETLERİ, ARAÇ KAZASI TAZMİNATLARI, taleplerin hazırlanması ve faaliyete özel diğer belgeler.
+              Alte domenii de activitate în care vă oferim consultanță, asistare
+              și reprezentare în fața instanțelor de judecată sau a altor
+              instituții ale statului: RECUPERARE CREANTE, PENSII SI ALTE
+              DREPTURI DE ASIGURARI SOCIALE, ASOCIAȚII DE PROPRIETARI, PLÂNGERI
+              CONTRAVENȚIONALE AMENZI, DESPĂGUBIRI ACCIDENTE AUTO, redactare de
+              cereri precum si orice alte documente specifice activitatii.
             </p>
           </div>
         </div>

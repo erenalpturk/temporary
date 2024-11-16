@@ -13,24 +13,20 @@
 /* TOPBANNER====================== */
 .banner {
   background-color: #c2b697;
-  color: 012f12;
+  color: #053661;
   font-size: 0.9rem;
   font-weight: 600;
 }
-
 .banner-icon {
   color: #be7413;
 }
-
 .banner-icon:hover {
-  color: 012f12;
+  color: #053661;
 }
-
 .phone-icon {
   animation: ring 12s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
-
 @keyframes ring {
   0% {
     transform: scale(1) rotate(0deg);
@@ -93,12 +89,11 @@
 }
 
 .nav .slide-in {
-  background-color: #012f12;
-  padding-bottom: 0;
+  background-color: #02182b;
+  padding-top: 0;
   padding-top: 0;
   animation: slide-in 0.8s ease-out;
 }
-
 @keyframes slide-in {
   from {
     transform: translateY(-70%);
@@ -111,11 +106,10 @@
 
 /* FOOTER====================== */
 footer {
-  background-color: #012f12;
+  background-color: #02182b;
   color: #e7eaef;
   font-size: 0.8rem;
 }
-
 footer .logo-text {
   max-width: 150px;
 }
@@ -128,24 +122,19 @@ footer .logo-text {
   max-width: 150px;
   margin-left: -1.5rem;
 }
-
 footer .content {
   color: #c2b697;
 }
-
 .contact-icon {
   color: #be7413;
   font-size: large;
 }
-
 .contact-icon:hover {
   color: #c2b697;
 }
-
 footer h6 {
   color: #c2b697;
 }
-
 /* .scroll-to-top {
   color: #e7eaef;
   background-color: transparent;
@@ -161,7 +150,6 @@ footer h6 {
 .home-page {
   font-size: 0.9rem;
 }
-
 .hero-section {
   background-image: url("/public/assets/hero.webp");
   height: 600px;
@@ -185,13 +173,6 @@ footer h6 {
   z-index: 1;
   margin-top: 8rem;
   margin-left: 3rem;
-}
-
-.servicesContainer{
-  margin-left: unset !important;
-  margin-right: unset !important;
-  padding: 0 2rem !important;
-  width: 100% !important;
 }
 
 .text-1,
@@ -233,13 +214,11 @@ footer h6 {
     opacity: 0;
     transform: translateX(-100%);
   }
-
   to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-
 .horizontal-btn {
   position: absolute;
   left: 50%;
@@ -247,44 +226,42 @@ footer h6 {
   transform: translateX(-50%);
   z-index: 1;
 }
-
 #horizontal1 {
-  background-color: #012f12;
+  background-color: #042b4e;
   color: #ebe2d6ff;
 }
 
 #horizontal1:hover {
   background-color: #c2b697;
-  color: #012f12;
+  color: #042b4e;
 }
-
 #small {
-  background-color: #012f12;
+  background-color: #042b4e;
   color: #ebe2d6ff;
 }
 
 #small:hover {
   background-color: #c2b697;
-  color: #012f12;
+  color: #042b4e;
 }
 
 .horizontal-btn .btn {
   background-color: #c2b697;
-  color: 012f12;
+  color: #053661;
 }
 
 .horizontal-btn .btn:hover {
-  background-color: #012f12;
+  background-color: #042b4e;
   color: #ebe2d6ff;
 }
 
 .mobile-btn .btn {
   background-color: #c2b697;
-  color: 012f12;
+  color: #053661;
 }
 
 .mobile-btn .btn:hover {
-  background-color: #012f12;
+  background-color: #042b4e;
   color: #ebe2d6ff;
 }
 
@@ -293,39 +270,7 @@ footer h6 {
 .text-separator {
   border-left: 2px solid #a07613;
   padding-left: 2rem;
-}
-
-.brandAllContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.brandAllContainer h1 {
-  font-size: 1rem;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px rgb(0, 0, 0);
-  color: #e4b34b;
-  text-align: center;
-  margin-bottom: 0;
-  font-family: "Marmelad", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 100;
-}
-
-.brandAllContainer h2 {
-  font-size: 0.8rem;
-  text-align: center;
-  margin-bottom: 0;
-  font-family: "Marmelad", sans-serif;
-}
-
-.brandAllContainer .navbar-brand {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
+  text-indent: 1rem;
 }
 
 /* intro */
@@ -420,11 +365,9 @@ footer h6 {
   height: 8rem;
   margin-top: -3rem;
 }
-
 .square:hover {
-  background-color: #012f12;
+  background-color: #042b4e;
 }
-
 /* AVOCATURA====================== */
 .avocatura {
   font-size: 0.8rem;
@@ -522,11 +465,9 @@ footer h6 {
   background-position: center;
   transition: transform 0.3s ease-in-out;
 }
-
 .insolventa-page .card-text {
   background-color: #072e53;
 }
-
 .insolventa-page .btn {
   background-color: #c2b697;
   display: block;
@@ -545,7 +486,6 @@ footer h6 {
 .contact-page {
   font-size: 0.9rem;
 }
-
 .form-wrap {
   position: relative;
   background-image: url("/public/assets/column-form.webp");

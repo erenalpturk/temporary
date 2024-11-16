@@ -15,16 +15,17 @@ export const Contact = () => {
     <div className="contact-page">
       <Helmet>
         <title>
-          İletişim | Avukat Elif Ezgi | Avukatlık ve Danışmanlık Bürosu
+          Contact | Avocat Bucuresti | Cabinet de avocat si insolventa Alina
+          Marin
         </title>
-
+        
         <meta
           name="description"
-          content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Konya, Program: Luni - Vineri: 9 - 17, E-mail: av.elifezgi@gmail.com, Telefon: +90 533 414 16 85."
+          content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, Program: Luni - Vineri: 9 - 17, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."
         />
       </Helmet>
       <section>
-        <h6 className="guide-text ms-3 mt-4">İLETİŞİM</h6>
+        <h6 className="guide-text ms-3 mt-4">CONTACT</h6>
         {/* contact info============ */}
         <div className="container-lg bg-light my-5 shadow">
           <div className="contact-info text-center py-5">
@@ -40,8 +41,8 @@ export const Contact = () => {
                       />
                     </span>
                   </div>
-                  <h5>Lokasyon:</h5>
-                  <p>Konya</p>
+                  <h5>Locatie:</h5>
+                  <p>Bucuresti</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 border-end border-1">
@@ -55,8 +56,8 @@ export const Contact = () => {
                       />
                     </span>
                   </div>
-                  <h5>Çalışma Saatleri:</h5>
-                  <p>Pzt – Cts: 9 – 17</p>
+                  <h5>Program:</h5>
+                  <p>Luni – Vineri: 9 – 17</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12 border-end border-1">
@@ -71,7 +72,7 @@ export const Contact = () => {
                     </span>
                   </div>
                   <h5>E-mail</h5>
-                  <p>av.elifezgi@gmail.com</p>
+                  <p>av_alinamarin@yahoo.com</p>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-12">
@@ -86,7 +87,7 @@ export const Contact = () => {
                     </span>
                   </div>
                   <h5>Telefon</h5>
-                  <p>+90 533 414 16 85</p>
+                  <p>+40769 935 716</p>
                 </div>
               </div>
             </div>
@@ -98,16 +99,19 @@ export const Contact = () => {
             <div className="col-sm-6 order-sm-first ">
               <div className="contact-text d-flex flex-column ">
                 <h5 className="lh-base text-center pb-4">
-                  Bize ulaşmaktan çekinmeyin!
+                  Nu ezitati sa ne contactati!
                 </h5>
                 <p>
-                  Sizlere karşılaştığınız tüm hukuki sorunlarda destek sunmak için buradayız.{" "}
+                  Suntem aici pentru a va oferi sprijinul nostru in toate
+                  problemele legale cu care va confruntati.{" "}
                 </p>
                 <p>
-                  Lütfen aşağıdaki formu doldurarak bizimle iletişime geçin, size yardımcı olmaktan memnuniyet duyarız.
+                  Va rugam sa ne contactati completand formularul de mai jos si
+                  vom fi bucurosi sa va oferim ajutorul nostru.
                 </p>
                 <p>
-                  Talebinizi alacağız ve daha fazla detay için en kısa sürede size geri dönüş yapacağız.
+                  Vom prelua solicitarea dvs. si vom reveni in scurt timp pentru
+                  mai multe detalii.
                 </p>
               </div>
             </div>
