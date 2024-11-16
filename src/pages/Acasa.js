@@ -107,8 +107,7 @@ const Acasa = () => {
                   <span className="p-3">
                     <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
                   </span>
-                  Cere o evaluare
-                </button>
+                  TEKLİF AL                </button>
               </Link>
               <Link to="/informatii-utile">
                 <button
@@ -118,7 +117,7 @@ const Acasa = () => {
                   <span className="p-3">
                     <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
                   </span>
-                  Onorarii
+                  ÜCRETLER
                 </button>
               </Link>
             </div>
