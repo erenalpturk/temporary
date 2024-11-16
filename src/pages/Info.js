@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div className="info">
       <Helmet>
-        <title>Informatii Utile | Avocat Konya | Cabinet de avocat si insolventa Elif Ezgi Özkan</title>
+        <title>Sık Sorulan Sorular | Avukat Elif Ezgi Konya | Avukatlık ve Danışmanlık Bürosu </title>
         
         <meta
           name="description"
@@ -13,7 +13,7 @@ const Info = () => {
         />
       </Helmet>
       <div>
-        <h6 className="guide-text ms-3 mt-4">INFORMATII UTILE</h6>
+        <h6 className="guide-text ms-3 mt-4">Sık Sorulan Sorular</h6>
         <div className="container py-5">
           <div id="accordion" className="accordion">
             {/* onorariul========== */}
@@ -28,7 +28,7 @@ const Info = () => {
                   aria-expanded="false"
                   aria-controls="collapseOne"
                 >
-                  ONORARIUL
+                  Sık Sorulan Sorular?
                 </button>
               </h2>
               <div

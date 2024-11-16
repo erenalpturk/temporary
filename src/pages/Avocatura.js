@@ -30,8 +30,7 @@ const Avocatura = () => {
               Tam Kapsamlı Hukuk Hizmetleri
             </h5>
             <h6 className="fw-bold subtitle lh-lg text-center px-5 pb-4">
-              Hukuki danışmanlık ve çeşitli uygulama alanlarında uzmanlaşmış yardım sunuyorum.ƒ
-            </h6>
+              Hukuki danışmanlık ve çeşitli uygulama alanlarında uzmanlaşmış yardım sunuyorum.            </h6>
           </div>
           <div className="row g-5 px-5 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
