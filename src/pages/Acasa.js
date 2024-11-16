@@ -8,7 +8,6 @@ import {
   faCommentsDollar,
   faGavel,
 } from "@fortawesome/free-solid-svg-icons";
-
 const Acasa = () => {
   return (
     <>
@@ -170,7 +169,7 @@ const Acasa = () => {
               <div className="services-section ">
                 <div className="services-overlay "></div>
 
-                <div className="services-content container mt-3">
+                <div className="services-content  servicesContainer container mt-3">
                   <h6 className=" guide-text">HİZMETLER</h6>
 
                   <h5 className="lh-base text-center pb-3">
