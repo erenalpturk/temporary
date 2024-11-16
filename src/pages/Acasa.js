@@ -297,7 +297,8 @@ const Acasa = () => {
 
         {/*CE NE RECOMANDA========= */}
         <section className="recommendation card-body p-3 bg-image m-3">
-          <h6 className="guide-text ">UZMANLIĞIMIZ</h6>
+          {/* <h6 className="guide-text ">UZMANLIĞIMIZ</h6> */}
+          <p className="guide-text mb-4">UZMANLIĞIMIZ</p>
 
           <div className="container d-flex flex-column justify-content-center align-items-center">
             <h5 className="h-50 lh-base text-center pb-4">

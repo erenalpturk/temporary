@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className="navbar navbar-dark w-100 navbar-expand-md slide-in">
           <div className="container-xxl">
             {/* logo */}
-            <div className="navbar-brand">
+            {/* <div className="navbar-brand">
               <span>
                 <img
                   src="/assets/LOGO2.png"
@@ -27,7 +27,25 @@ const Navbar = () => {
                   height="100"
                 />
               </span>
+            </div> */}
+
+            <div className="navbar-brand ">
+              <span className="brandAllContainer">
+                <img
+                  src="/assets/LOGO2.png"
+                  className="img-fluid logo-image"
+                  alt="scales of justice logo"
+                  width="70"
+                  height="70"
+                />
+                <div className="navbar-brand">
+                  <h1>ELİF EZGİ</h1>
+                  <h2 className="text-light">Hukuk ve Danışmanlık<br/>Bürosu</h2>
+                </div>
+              </span>
             </div>
+
+
             {/* toggle button for mobile nav */}
             <button
               className="navbar-toggler"

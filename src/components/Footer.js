@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="container">
           <div className="row justify-content-center py-4">
             {/* Logo Section */}
-            <div className="col-md-4 ps-4 mx-auto text-center">
+            {/* <div className="col-md-4 ps-4 mx-auto text-center">
               <span className="">
                 <img
                   src="/assets/LOGO2.png"
@@ -33,6 +33,25 @@ const Footer = () => {
                   width="150"
                   height="100"
                 />
+              </span>
+              <p className="content px-5">
+              Hukuk ve Danışmanlık büromuz hukuki ve mali zorluklar konusunda size rehberlik edebilir. Çıkarlarınızı korumaya ve size özelleştirilmiş çözümler sunmaya kendimizi adadık.
+              </p>
+            </div> */}
+
+            <div className="col-md-4 ps-4 mx-auto text-center">
+              <span className="brandAllContainer">
+                <img
+                  src="/assets/LOGO2.png"
+                  className="img-fluid logo-image"
+                  alt="scales of justice logo"
+                  width="70"
+                  height="70"
+                />
+                <div className="navbar-brand">
+                  <h1>ELİF EZGİ</h1>
+                  <h2 className="text-light">Hukuk ve Danışmanlık<br/>Bürosu</h2>
+                </div>
               </span>
               <p className="content  px-5">
               Hukuk ve Danışmanlık büromuz hukuki ve mali zorluklar konusunda size rehberlik edebilir. Çıkarlarınızı korumaya ve size özelleştirilmiş çözümler sunmaya kendimizi adadık.
